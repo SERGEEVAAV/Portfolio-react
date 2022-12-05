@@ -1,0 +1,27 @@
+.footer {
+    background-color: var(--dark-bg);
+    padding: 60px 0 50px 0;
+    color: var(--header-text);
+}
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+    align-items: center;
+    justify-content: center;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+.social__item {
+    list-style: none;
+}
+.copyright {
+    font-size: 16px;
+}
+.copyright p + p {
+    margin-top: 0.5em;
+}
