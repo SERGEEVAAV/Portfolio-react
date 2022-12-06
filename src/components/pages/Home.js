@@ -1,12 +1,9 @@
 import promo from "./../../img/promo.png";
 import "./../pages/style.css";
 
-import Header from "./../../components/header/Header";
-
 const Home = () => {
     return (  
-        <div>
-            <Header/>
+        <div>          
                 <div className="promo">
                 <div className="wrapper promo__wrapper">
                     <div className="promo__content">

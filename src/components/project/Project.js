@@ -1,11 +1,18 @@
-import "./../project/style.css";
-import pets from "./../../img/project/pets.jpg";
+import { NavLink } from "react-router-dom";
 
-const Project = ({title, img}) => {
-    return ( 
-        <li className="project">
-            <a href="./project-page.html"><img src={img} className="project__img" alt={title} width="570" height="700"/><h3 className="project__title">{title}</h3></a>
-        </li>
+
+import "./../project/style.css";
+
+const Project = ({title, img, id}) => {
+    return (
+        <NavLink to={`/project/${id}`}>
+            <li className="project project-details__cover">
+                <img src={img} className="project__img" alt={title}/>
+                {/* {id} */}
+                <h3 className="project__title">{title}</h3>
+            </li>
+        </NavLink> 
+        
      );
 }
  

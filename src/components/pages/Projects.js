@@ -1,4 +1,4 @@
-import Header from "../header/Header";
+
 import "./../pages/style.css";
 
 import Project from "../project/Project";
@@ -6,9 +6,7 @@ import Project from "../project/Project";
 import { projects } from "../../helpers/projectList";
 
 const Projects = () => {
-    return ( 
-        <>
-        {/* <Header/> */}
+    return (            
         <main className="project">
             <div className="wrapper project__wrapper">
                 <h2 className="title-1">Projects</h2>
@@ -17,8 +15,11 @@ const Projects = () => {
                     {projects.map((project, id)=> {
                         return (
                         <Project key={id} 
-                                title={project.title} 
-                                img={project.img}/>
+                                 title={project.title} 
+                                 img={project.img}
+                                 id={id}
+                                />
+                               
                         );
 
                         
@@ -28,7 +29,7 @@ const Projects = () => {
             </div>
 
         </main>  
-        </>
+     
         
      );
 }

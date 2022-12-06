@@ -1,37 +1,46 @@
-import pets from "./../img/project/pets.jpg";
-import marketing from "./../img/project/marketing.png";
-import gards from "./../img/project/gards.png";
-import frame from "./../img/project/frame.png";
+import pets from "./../img/project/cozy-hause.jpg";
+import marketing from "./../img/project/hero.jpg";
+import gards from "./../img/project/gards.jpg";
+import frame from "./../img/project/frame.jpg";
+
+import bg1 from "./../img/project/bg-1.jpg";
+import bg2 from "./../img/project/bg-2.jpg";
+import bg3 from "./../img/project/bg-3.jpg";
+import bg4 from "./../img/project/bg-4.jpg";
 
 const projects = [
     {
         id: '1',
-        title: 'Адаптивный сайт Cozy Haus',
-        skills: 'Js, Webpack, SASS/CSS',
+        title: 'Not only people need a house - Cozy Haus',
+        skills: 'JS, Webpack, SASS/CSS',
+        bigImg: bg1,
         img: pets,
-        gitHubLink: 'http://github.com',
+        gitHubLink: 'https://sergeevaav.github.io/for-work/Shelter/pages/main/index.html',
 
     },
     {
         id: '2',
         title: 'The Design Thinking superpowers',
-        skills: 'Js, Webpack, SASS/CSS',
+        skills: 'JS, Webpack, SASS/CSS',
+        bigImg: bg2,
         img: marketing,
-        gitHubLink: 'http://github.com',
+        gitHubLink: 'https://sergeevaav.github.io/Layout/',
 
     },
     {
         id: '3',
         title: 'We grow plants and give you oxygen',
-        skills: 'Js, Webpack, SASS/CSS',
+        skills: 'JS, Webpack, SASS/CSS',
+        bigImg: bg3,
         img: gards,
         gitHubLink: 'http://github.com',
 
     },
     {
         id: '4',
-        title: 'The 10 most beautiful places you should visit in your life',
-        skills: 'Js, Webpack, SASS/CSS',
+        title: 'Webflow blog template',
+        skills: 'JS, Webpack, SASS/CSS',
+        bigImg: bg4,
         img: frame,
         gitHubLink: 'http://github.com',
 

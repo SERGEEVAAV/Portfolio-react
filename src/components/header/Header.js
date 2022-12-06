@@ -1,13 +1,18 @@
 import Navbar from "../navbar/Navbar";
 import "./style.css";
 
+import { NavLink } from "react-router-dom";
+
 const Header = () => {
     return ( 
         <header className="header">
         <div className="wrapper header__wrapper">
-            <div className="header__logo">
+            <NavLink to="/" className="header__logo__title">
+            <strong>Freelance</strong> portfolio
+            </NavLink>
+            {/* <div className="header__logo">
                 <a href="./index.html"className="header__logo__title"><strong>Freelance</strong> portfolio</a>
-            </div>           
+            </div>            */}
            <Navbar/>                                             
         </div>
     </header>
