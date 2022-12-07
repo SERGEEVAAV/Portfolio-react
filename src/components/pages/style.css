@@ -11,17 +11,17 @@
     align-items: center;
     text-align: center;
 }
-.promo__wrapper {
+/* .promo__wrapper {
     padding: 0 15px;
     max-width: 760px;
-}
+} */
 .promo__title {
-    font-size: 40px;
+    font-size: calc(20px + (16 + 16 * 0.7) * ((100vw - 320px) / 1920));
     font-weight: 700;
     line-height: 1.4;
 }
 .promo__title strong {
-    font-size: 60px;
+    font-size: calc(30px + (16 + 16 * 0.7) * ((100vw - 320px) / 1920));
     font-weight: 700;
 }
 .promo__title em {
@@ -35,6 +35,9 @@
 }
 .promo__text p + p {
     margin-top: 1em; /* 1 умножить на размер шрифта*/
+}
+.promo__image {
+    width: 70%;
 }
 .btn {
     display: inline-block;
@@ -56,7 +59,6 @@
     top: 2px;
 }
 
-
 /*Project*/
 
 .project__wrapper {
@@ -65,23 +67,28 @@
     justify-content: center;
     align-items: center;
 }
-.projects {
+.projects {    
     display: flex;
-    /* flex-wrap: wrap; */
-    column-gap: 40px;
+    flex-wrap: wrap;
+    padding: 0;
+    column-gap: 20px;
+    row-gap: 30px;
 }
 .project {
-   
+    padding: 10px;
+    background-color: var(--white);
+    
     list-style: none;
 }
 .project__title {
     text-align: center;
 }
 .project__img {
-    width: 450px;
+    max-width: 370px;
     height: 278px;
   
 }
+
 
 /*Project-details*/
 
@@ -124,28 +131,36 @@
 }
 
 /*Contacts*/
+
 .contacts__wrapper {
    max-width: 570px;
    display: flex;
    flex-direction: column;
-   justify-content: center;
-   align-items: center;
+   
 }
 .title-1 {
-    font-size: 60px;
+    font-size: calc(30px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
     font-weight: 700;
     line-height: 1.3;
     color: var(--accent);
-   text-align: center;
-    margin-bottom: 60px;
+    text-align: center;
+    margin: 0;
+    margin: 20px 0 40px 0;
    
 }
 .title-2 {
-    font-size: 40px;
+    font-size: calc(20px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
     line-height: 1.3;
     font-weight: 700;
     margin-bottom: 20px;
    
+}
+.contact-list{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-list__item {
@@ -158,6 +173,7 @@
 
 }
 .contact-list__text {
+    text-align: center;
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
@@ -167,3 +183,17 @@
 a{
    color: #000;
 }
+
+@media (min-width: 768px) and (max-width: 930px) {
+    .projects {
+         justify-content: center;
+    }
+    .promo__image  {
+        width: 350px;
+    }
+    
+}
+/* @media (min-width: 320px) and (max-width: 600px) {
+   
+   
+} */
