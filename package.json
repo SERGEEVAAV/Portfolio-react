@@ -2,7 +2,7 @@
   "name": "freelance-portfolio-react",
   "version": "0.1.0",
   "private": true,
-  "homepages": "https://sergeevaav.github.io/Portfolio-react/",
+  "homepages": "https://sergeevaav.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

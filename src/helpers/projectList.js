@@ -2,6 +2,7 @@ import pets from "./../img/project/cozy-hause.jpg";
 import marketing from "./../img/project/hero.jpg";
 import gards from "./../img/project/gards.jpg";
 import frame from "./../img/project/frame.jpg";
+import momentum from "./../img/project/momentum.png";
 
 import bg1 from "./../img/project/bg-1.jpg";
 import bg2 from "./../img/project/bg-2.jpg";
@@ -43,6 +44,15 @@ const projects = [
         bigImg: bg4,
         img: frame,
         gitHubLink: 'http://github.com',
+
+    },
+    {
+        id: '5',
+        title: 'Momentum',
+        skills: 'JS, Webpack, SASS/CSS',
+        bigImg: momentum,
+        img: momentum,
+        gitHubLink: 'https://sergeevaav.github.io/App_momentum/',
 
     },
 ];
