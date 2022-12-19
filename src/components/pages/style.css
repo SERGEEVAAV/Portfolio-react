@@ -37,7 +37,7 @@
     margin-top: 1em; /* 1 умножить на размер шрифта*/
 }
 .promo__image {
-    width: 70%;
+    width: 100%;
 }
 .btn {
     display: inline-block;

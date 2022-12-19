@@ -10,9 +10,6 @@ const Header = () => {
             <NavLink to="/" className="header__logo__title">
             <strong>Freelance</strong> portfolio
             </NavLink>
-            {/* <div className="header__logo">
-                <a href="./index.html"className="header__logo__title"><strong>Freelance</strong> portfolio</a>
-            </div>            */}
            <Navbar/>                                             
         </div>
     </header>
