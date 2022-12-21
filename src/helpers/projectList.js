@@ -34,7 +34,7 @@ const projects = [
         skills: 'JS, Webpack, SASS/CSS',
         bigImg: bg3,
         img: gards,
-        gitHubLink: 'http://github.com',
+        gitHubLink: 'https://sergeevaav.github.io/Growing-plants/plant/index.html',
 
     },
     {

@@ -15,11 +15,11 @@ const Footer = () => {
               <li className="social__item"><a href="#!"><img src={vk} className="icon-btn" alt="vk"/></a></li>
               <li className="social__item"><a href="#!"><img src={instagram} className="icon-btn" alt="instagram"/></a></li>
               <li className="social__item"><a href="#!"><img src={twitter} className="icon-btn" alt="twitter"/></a></li>
-              <li className="social__item"><a href="#!"><img src={gitHub} className="icon-btn" alt="gitHub"/></a></li>
+              <li className="social__item"><a href="https://github.com/SERGEEVAAV"><img src={gitHub} className="icon-btn" alt="gitHub"/></a></li>
               <li className="social__item"><a href="#!"><img src={linkedIn} className="icon-btn" alt="linkedIn"/></a></li>
             </ul>
             <div className="copyright">
-              <p>© 2022 frontend-dev.com</p>
+              <p>© 2022 Sergeeva  Anastasia</p>
             </div>
           </div>
                                                
