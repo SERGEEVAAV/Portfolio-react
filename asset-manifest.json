@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.e9e7370e.css",
-    "main.js": "/static/js/main.3de0b5d6.js",
+    "main.js": "/static/js/main.887e7dc3.js",
     "static/js/787.8b11e2ca.chunk.js": "/static/js/787.8b11e2ca.chunk.js",
+    "static/media/bg-6.jpg": "/static/media/bg-6.f5e8fccf796532cb79fc.jpg",
     "static/media/bg-1.jpg": "/static/media/bg-1.63f5db68d4b541854fdb.jpg",
     "static/media/bg-4.jpg": "/static/media/bg-4.d4bc049737cf07a10b3c.jpg",
     "static/media/momentum.png": "/static/media/momentum.07b311d9aa6fd97f75ff.png",
@@ -10,6 +11,7 @@
     "static/media/bg-2.jpg": "/static/media/bg-2.44831931f5a9346a34d0.jpg",
     "static/media/pets.jpg": "/static/media/pets.f6a78ce728577b18d7dd.jpg",
     "static/media/cozy-hause.jpg": "/static/media/cozy-hause.a22fe2f0366e0afdca06.jpg",
+    "static/media/bored.jpg": "/static/media/bored.89681d3ba66a9ce48b40.jpg",
     "static/media/frame.jpg": "/static/media/frame.7bb8ab8145c2eacd17e8.jpg",
     "static/media/hero.jpg": "/static/media/hero.4509dc729d1ad7918ca8.jpg",
     "static/media/gards.jpg": "/static/media/gards.9062138847a066c720e9.jpg",
@@ -22,11 +24,11 @@
     "static/media/linkedIn.svg": "/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/index.html",
     "main.e9e7370e.css.map": "/static/css/main.e9e7370e.css.map",
-    "main.3de0b5d6.js.map": "/static/js/main.3de0b5d6.js.map",
+    "main.887e7dc3.js.map": "/static/js/main.887e7dc3.js.map",
     "787.8b11e2ca.chunk.js.map": "/static/js/787.8b11e2ca.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9e7370e.css",
-    "static/js/main.3de0b5d6.js"
+    "static/js/main.887e7dc3.js"
   ]
 }
