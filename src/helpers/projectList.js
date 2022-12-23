@@ -3,11 +3,13 @@ import marketing from "./../img/project/hero.jpg";
 import gards from "./../img/project/gards.jpg";
 import frame from "./../img/project/frame.jpg";
 import momentum from "./../img/project/momentum.png";
+import bored from "./../img/project/bored.jpg";
 
 import bg1 from "./../img/project/bg-1.jpg";
 import bg2 from "./../img/project/bg-2.jpg";
 import bg3 from "./../img/project/bg-3.jpg";
 import bg4 from "./../img/project/bg-4.jpg";
+import bg6 from "./../img/project/bg-6.jpg";
 
 const projects = [
     {
@@ -52,6 +54,15 @@ const projects = [
         skills: 'JS, Webpack, SASS/CSS',
         bigImg: momentum,
         img: momentum,
+        gitHubLink: 'https://sergeevaav.github.io/App_momentum/',
+
+    },
+    {
+        id: '6',
+        title: 'Landing page',
+        skills: 'HTML, SASS/CSS',
+        bigImg: bg6,
+        img: bored,
         gitHubLink: 'https://sergeevaav.github.io/App_momentum/',
 
     },
